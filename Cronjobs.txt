@@ -1,0 +1,4 @@
+This file contains a copy of what Cronjobs are currently running on my aws ec2 server.
+
+0 * * * * /usr/bin/php /var/www/html/getdocuments.php >> log.txt
+15 12 * * Sun /usr/bin/php /var/www/html/weeklyCheck.php >> weeklyLog.txt
